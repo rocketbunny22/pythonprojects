@@ -3,8 +3,8 @@ import json
 import smtplib, ssl
 
 # Set your Lightspeed POS API credentials
-api_key = "lsxs_pt_vLgHxuH8mAJbIpTkxtPFTdrX2bUlXaNI"
-base_url = "https://restorationthrift.vendhq.com/api/2.0"
+api_key = "api_credentials"
+base_url = "https://your_store.vendhq.com/api/2.0"
 
 # Define the endpoint to retrieve sales data
 endpoint = "/security_events"
